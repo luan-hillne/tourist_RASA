@@ -27,7 +27,7 @@ This project is a **Tourist Information Chatbot** designed to assist users in fi
    git clone https://github.com/yourusername/tourist-chatbot.git](https://github.com/luan-hillne/tourist_RASA.git
 2. **Install dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pip install rasa
 3. **Start chatbot**:
    ```
    rasa run actions
