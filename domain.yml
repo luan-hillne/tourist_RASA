@@ -57,19 +57,19 @@ responses:
 
     utter_ask_chonoicairang:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Chợ nổi Cái Răng tại [đây](https://vinpearl.com/vi/cho-noi-cai-rang-can-tho-trai-nghiem-doc-dao-tai-mien-tay-song-nuoc)
+            Bạn có thể tham khảo trước các dịch vụ ở Chợ nổi Cái Răng tại [đây](https://vinpearl.com/vi/cho-noi-cai-rang-can-tho-trai-nghiem-doc-dao-tai-mien-tay-song-nuoc) còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_benninhkieu:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Bến Ninh Kiều tại [đây](https://vinpearl.com/vi/ben-ninh-kieu-can-tho-co-gi-thu-vi-kinh-nghiem-an-choi-sieu-chi-tiet)  
+            Bạn có thể tham khảo trước các dịch vụ ở Bến Ninh Kiều tại [đây](https://vinpearl.com/vi/ben-ninh-kieu-can-tho-co-gi-thu-vi-kinh-nghiem-an-choi-sieu-chi-tiet)  còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_langmykhanh:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Làng du lịch Mỹ Khánh tại [đây](https://vinpearl.com/vi/khu-du-lich-my-khanh-can-tho-va-6-trai-nghiem-hay-ho-hap-dan)  
+            BBạn có thể tham khảo trước các dịch vụ ở Làng du lịch Mỹ Khánh tại [đây](https://vinpearl.com/vi/khu-du-lich-my-khanh-can-tho-va-6-trai-nghiem-hay-ho-hap-dan)  còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_thienvientruc:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Thiền viện Trúc Lâm Phương Nam tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh)  
+            Bạn có thể tham khảo trước các dịch vụ ở Thiền viện Trúc Lâm Phương Nam tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh)  còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_vuoncobanglan:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Vườn Cò Bằng Lăng tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh) 
+            Bạn có thể tham khảo trước các dịch vụ ở Vườn Cò Bằng Lăng tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh) còn thắc mắc nào sau khi tham khảo hãy nói với tôi
 
     utter_ask_restaurant_chonoicairang:
         - text: |-
@@ -605,7 +605,7 @@ responses:
                 Địa chỉ: Số 1, Đường Hòa Bình, gần Bến Ninh Kiều.
                 Mô tả: Khách sạn sang trọng với tầm nhìn ra sông, cung cấp dịch vụ cao cấp và các món ăn đặc sản.
             2.Khách sạn Vinpearl Cần Thơ
-                Giá thuê: khoảng 2.500.000 - 4.000.000 VNĐ/đêm.
+                Giá thuê: khoảng 2.500.000 - 3.000.000 VNĐ/đêm.
                 Địa chỉ: Số 31, Đường Đinh Tiên Hoàng, gần Bến Ninh Kiều.
                 Mô tả: Khách sạn 5 sao đẳng cấp, nhiều tiện nghi hiện đại, thích hợp cho những ai tìm kiếm sự sang trọng.
             3.Khách sạn Mường Thanh Cần Thơ
@@ -806,10 +806,11 @@ responses:
 
             Mỗi phương tiện đều mang lại trải nghiệm riêng biệt, giúp bạn dễ dàng khám phá chợ nổi và tận hưởng không khí miền sông nước Cần Thơ.
     utter_default:
-        - text: "Xin lỗi, tôi không hiểu yêu cầu của bạn. Bạn có thể nói rõ hơn không?"
+        - text: "Xin lỗi, tôi không thể trả lời câu hỏi này. Bạn có thể hỏi lại không?"
+
 
 actions:
-  - action_default_fallback
+  - action_fallback
   - action_extract_location
 
 

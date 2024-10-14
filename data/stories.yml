@@ -21,7 +21,7 @@ stories:
 - story: form2
   steps:
     - intent: ask_tour
-    - action: utter_ask_tour
+    - action: action_extract_location
 
 # dia diem du lich
 - story: form3
