@@ -41,7 +41,7 @@ responses:
                 - Khám phá các nhà hàng nổi và quán cà phê dọc bờ sông.
                 - Về đêm, bến Ninh Kiều càng thêm lung linh, thu hút du khách.
 
-            3. **Làng Du Lịch Mỹ Khánh** (4.6★ / 252 đánh giá):
+            3. **Làng Mỹ Khánh** (4.6★ / 252 đánh giá):
                 - Khu du lịch sinh thái kết hợp với văn hóa truyền thống miền Tây.
                 - Tham quan vườn cây trái, trải nghiệm làm nông dân, và tham gia trò chơi dân gian.
 
@@ -57,22 +57,19 @@ responses:
 
     utter_ask_chonoicairang:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Chợ nổi Cái Răng tại [đây](https://vinpearl.com/vi/cho-noi-cai-rang-can-tho-trai-nghiem-doc-dao-tai-mien-tay-song-nuoc)
+            Bạn có thể tham khảo trước các dịch vụ ở Chợ nổi Cái Răng tại [đây](https://vinpearl.com/vi/cho-noi-cai-rang-can-tho-trai-nghiem-doc-dao-tai-mien-tay-song-nuoc) còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_benninhkieu:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Bến Ninh Kiều tại [đây](https://vinpearl.com/vi/ben-ninh-kieu-can-tho-co-gi-thu-vi-kinh-nghiem-an-choi-sieu-chi-tiet)  
+            Bạn có thể tham khảo trước các dịch vụ ở Bến Ninh Kiều tại [đây](https://vinpearl.com/vi/ben-ninh-kieu-can-tho-co-gi-thu-vi-kinh-nghiem-an-choi-sieu-chi-tiet)  còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_langmykhanh:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Làng du lịch Mỹ Khánh tại [đây](https://vinpearl.com/vi/khu-du-lich-my-khanh-can-tho-va-6-trai-nghiem-hay-ho-hap-dan)  
+            BBạn có thể tham khảo trước các dịch vụ ở Làng du lịch Mỹ Khánh tại [đây](https://vinpearl.com/vi/khu-du-lich-my-khanh-can-tho-va-6-trai-nghiem-hay-ho-hap-dan)  còn thắc mắc nào sau khi tham khảo hãy nói với tôi
     utter_ask_thienvientruc:
         - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Thiền viện Trúc Lâm Phương Nam tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh)  
-    utter_ask_vuoncobanglan:
-        - text: |-
-            Bạn có thể tìm hiểu rõ hơn về Vườn Cò Bằng Lăng tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh) 
-
+            Bạn có thể tham khảo trước các dịch vụ ở Thiền viện Trúc Lâm Phương Nam tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh)  còn thắc mắc nào sau khi tham khảo hãy nói với tôi
+    
     utter_ask_restaurant_chonoicairang:
-        - text: |-
+        - text: |
             Tại Chợ nổi Cái Răng, có rất nhiều quán ăn ngon phục vụ các món đặc sản miền Tây. Dưới đây là một số nhà hàng và quán ăn nổi tiếng mà bạn có thể tham khảo, được chia thành hai nhóm:
 
             **Nhóm nhà hàng bình dân:**
@@ -163,7 +160,7 @@ responses:
 
             Bạn có thể lựa chọn các nhà hàng và quán ăn tùy theo sở thích và ngân sách của mình khi ghé thăm Bến Ninh Kiều.
     utter_ask_restaurant_langmykhanh:
-        - text: |-
+        - text: |
             Tại Làng Du Lịch Mỹ Khánh, có rất nhiều quán ăn và nhà hàng phục vụ các món đặc sản miền Tây. Dưới đây là danh sách 10 địa điểm mà bạn có thể tham khảo:
 
             **Nhóm nhà hàng bình dân:**
@@ -260,134 +257,7 @@ responses:
                 - **Mô tả**: Nhà hàng cao cấp phục vụ các món ăn đặc sản miền Tây trong không gian sang trọng và ấm cúng.
 
             Bạn có thể thưởng thức những món ăn ngon và thư giãn tại những địa điểm này khi ghé thăm Thiền Viện Trúc Lâm Phương Nam.
-    utter_ask_restaurant_vuoncobanglan:
-        - text: |-
-            Gần Vườn Cò Bằng Lăng, có nhiều quán ăn và nhà hàng phục vụ các món ăn ngon. Dưới đây là danh sách 10 địa điểm mà bạn có thể tham khảo:
-
-            **Nhóm nhà hàng bình dân:**
-
-            1. **Quán Cơm Gà Bằng Lăng**  
-                - **Địa chỉ**: Số 1, Đường Đỗ Hữu Phương, gần Vườn Cò.  
-                - **Mô tả**: Cơm gà tươi ngon, hương vị đậm đà, giá cả phải chăng.
-
-            2. **Quán Bánh Canh Cua**  
-                - **Địa chỉ**: Số 10, Đường Nguyễn Văn Thoại, gần Vườn Cò.  
-                - **Mô tả**: Món bánh canh cua thơm ngon, nước dùng thanh ngọt.
-
-            3. **Quán Cháo Vịt**  
-                - **Địa chỉ**: Số 15, Đường Lê Thánh Tôn, gần Vườn Cò.  
-                - **Mô tả**: Cháo vịt nóng hổi, thích hợp cho bữa sáng hoặc chiều.
-
-            4. **Quán Mì Quảng**  
-                - **Địa chỉ**: Số 8, Đường Phạm Ngọc Thạch, gần Vườn Cò.  
-                - **Mô tả**: Mì Quảng với nhiều loại topping, hương vị thơm ngon.
-
-            5. **Quán Hủ Tiếu**  
-                - **Địa chỉ**: Số 3, Đường Trần Phú, gần Vườn Cò.  
-                - **Mô tả**: Hủ tiếu với nước dùng thơm ngon, phục vụ nhanh chóng.
-
-            **Nhóm nhà hàng cao cấp:**
-
-            6. **Nhà hàng Bằng Lăng**  
-                - **Địa chỉ**: Khu du lịch Vườn Cò Bằng Lăng, gần Vườn Cò.  
-                - **Mô tả**: Nhà hàng sang trọng phục vụ các món ăn đặc sản miền Tây, không gian yên tĩnh và thoáng đãng.
-
-            7. **Nhà hàng Cò Bay**  
-                - **Địa chỉ**: Số 20, Đường Hậu Giang, gần Vườn Cò.  
-                - **Mô tả**: Nhà hàng ven sông với không gian lãng mạn, phục vụ hải sản tươi sống.
-
-            8. **Nhà hàng Sen Vàng**  
-                - **Địa chỉ**: Khu du lịch Sen Vàng, gần Vườn Cò.  
-                - **Mô tả**: Phục vụ đa dạng món ăn từ miền Tây và ẩm thực quốc tế, không gian sang trọng.
-
-            9. **Nhà hàng Ngọc Lan**  
-                - **Địa chỉ**: Số 25, Đường Nguyễn Thị Minh Khai, gần Vườn Cò.  
-                - **Mô tả**: Nhà hàng phục vụ món ăn cao cấp, không gian đẹp mắt và dịch vụ chuyên nghiệp.
-
-            10. **Nhà hàng Hoa Nhài**  
-                - **Địa chỉ**: Khu vực gần Vườn Cò, Cần Thơ.  
-                - **Mô tả**: Nhà hàng với các món ăn đặc sản miền Tây, phong cách phục vụ lịch sự và sang trọng.
-
-            Bạn có thể thưởng thức những món ăn ngon và thư giãn tại những địa điểm này khi ghé thăm Vườn Cò Bằng Lăng.
-
-    utter_ask_hotel_vuoncobanglan:
-        - text: |
-            Gần Vườn Cò Bằng Lăng, có nhiều nhà nghỉ và khách sạn phục vụ nhu cầu lưu trú của du khách. Dưới đây là danh sách 6 địa điểm mà bạn có thể tham khảo:
-            **Nhóm nhà nghỉ, khách sạn bình dân:
-            1.Nhà nghỉ Cò Bằng Lăng
-                Giá thuê: khoảng 300.000 - 500.000 VNĐ/đêm.
-                Địa chỉ: Số 10, Đường Bằng Lăng, gần Vườn Cò.
-                Mô tả: Nhà nghỉ thoải mái, giá cả hợp lý, gần gũi với thiên nhiên.
-            2.Khách sạn Hương Sen
-                Giá thuê: khoảng 400.000 - 600.000 VNĐ/đêm.
-                Địa chỉ: Số 25, Đường Quốc Lộ 1A, gần Vườn Cò.
-                Mô tả: Khách sạn nhỏ, phục vụ các dịch vụ cơ bản, thân thiện và dễ chịu.
-            3.Nhà nghỉ Bằng Lăng
-                Giá thuê: khoảng 350.000 - 550.000 VNĐ/đêm.
-                Địa chỉ: Số 15, Đường Nông Thôn, gần Vườn Cò.
-                Mô tả: Nơi nghỉ chân dễ chịu với không gian xanh mát, thích hợp cho các gia đình.
-
-            **Nhóm khách sạn cao cấp:
-            4.Khách sạn Bằng Lăng Riverside
-                Giá thuê: khoảng 1.200.000 - 2.000.000 VNĐ/đêm.
-                Địa chỉ: Số 1, Đường Bến Cò, gần Vườn Cò.
-                Mô tả: Khách sạn sang trọng ven sông, phục vụ nhiều món ăn đặc sản và có không gian thư giãn thoải mái.
-            5.Khách sạn Vườn Cò
-                Giá thuê: khoảng 1.500.000 - 2.500.000 VNĐ/đêm.
-                Địa chỉ: Số 3, Đường Vườn Cò, gần Vườn Cò.
-                Mô tả: Khách sạn cao cấp với thiết kế hiện đại, nhiều tiện nghi và dịch vụ chất lượng.
-            6.Khách sạn Ánh Dương
-                Giá thuê: khoảng 1.000.000 - 1.800.000 VNĐ/đêm.
-                Địa chỉ: Số 8, Đường Nguyễn Trãi, gần Vườn Cò.
-                Mô tả: Khách sạn đẳng cấp với dịch vụ hoàn hảo và nhiều tiện ích cho du khách.
-
-            Bạn có thể lựa chọn các nhà nghỉ và khách sạn phù hợp với nhu cầu và ngân sách của mình khi đến thăm Vườn Cò Bằng Lăng.
-    utter_vuoncobanglan_hotel_duoi_1trieu:
-        - text : |
-            Dưới đây là 1 vài gợi ý dành cho bạn :
-            1.Nhà nghỉ Cò Bằng Lăng
-                Giá thuê: khoảng 300.000 - 500.000 VNĐ/đêm.
-                Địa chỉ: Số 10, Đường Bằng Lăng, gần Vườn Cò.
-                Mô tả: Nhà nghỉ thoải mái, giá cả hợp lý, gần gũi với thiên nhiên.
-            2.Khách sạn Hương Sen
-                Giá thuê: khoảng 400.000 - 600.000 VNĐ/đêm.
-                Địa chỉ: Số 25, Đường Quốc Lộ 1A, gần Vườn Cò.
-                Mô tả: Khách sạn nhỏ, phục vụ các dịch vụ cơ bản, thân thiện và dễ chịu.
-            3.Nhà nghỉ Bằng Lăng
-                Giá thuê: khoảng 350.000 - 550.000 VNĐ/đêm.
-                Địa chỉ: Số 15, Đường Nông Thôn, gần Vườn Cò.
-                Mô tả: Nơi nghỉ chân dễ chịu với không gian xanh mát, thích hợp cho các gia đình.
-    utter_vuoncobanglan_hotel_duoi_3trieu:
-        - text: |
-            Dưới đây là 1 vài gợi ý dành cho bạn :
-            1.Khách sạn Bằng Lăng Riverside
-                .Giá thuê: khoảng 1.200.000 - 2.000.000 VNĐ/đêm.
-                .Địa chỉ: Số 1, Đường Bến Cò, gần Vườn Cò.
-                .Mô tả: Khách sạn sang trọng ven sông, phục vụ nhiều món ăn đặc sản và có không gian thư giãn thoải mái.
-            2.Khách sạn Vườn Cò
-                .Giá thuê: khoảng 1.500.000 - 2.500.000 VNĐ/đêm.
-                .Địa chỉ: Số 3, Đường Vườn Cò, gần Vườn Cò.
-                .Mô tả: Khách sạn cao cấp với thiết kế hiện đại, nhiều tiện nghi và dịch vụ chất lượng.
-            3.Khách sạn Ánh Dương
-                .Giá thuê: khoảng 1.000.000 - 1.800.000 VNĐ/đêm.
-                .Địa chỉ: Số 8, Đường Nguyễn Trãi, gần Vườn Cò.
-                .Mô tả: Khách sạn đẳng cấp với dịch vụ hoàn hảo và nhiều tiện ích cho du khách.
-    utter_vuoncobanglan_hotel_tren_3trieu:
-        - text: |
-            Dưới đây là 1 vài gợi ý dành cho bạn :
-            1.Khách sạn Vinpearl Cần Thơ
-                .Giá thuê: khoảng 3.500.000 - 4.500.000 VNĐ/đêm.
-                .Địa chỉ: Số 31, Đường Đinh Tiên Hoàng, gần Vườn Cò.
-                .Mô tả: Khách sạn 5 sao đẳng cấp, với nhiều tiện nghi hiện đại và dịch vụ chất lượng, thích hợp cho du khách muốn trải nghiệm sự sang trọng.
-            2.Khách sạn Victoria Can Tho
-                .Giá thuê: khoảng 3.000.000 - 4.000.000 VNĐ/đêm.
-                .Địa chỉ: Số 1, Đường Hòa Bình, gần Vườn Cò.
-                .Mô tả: Khách sạn sang trọng với dịch vụ cao cấp, thiết kế tinh tế và không gian thư giãn lý tưởng.
-            3.Khách sạn Mường Thanh Luxury Cần Thơ
-                .Giá thuê: khoảng 3.000.000 - 4.000.000 VNĐ/đêm.
-                .Địa chỉ: Số 60, Đường 30/4, gần Vườn Cò.
-                .Mô tả: Khách sạn cao cấp với nhiều tiện ích hiện đại và dịch vụ chuyên nghiệp, mang đến trải nghiệm lưu trú tuyệt vời.
-
+    
     utter_ask_hotel_thienvientruc:
         - text: |
             Gần Thiền Viện Trúc Lâm Phương Nam, có nhiều lựa chọn lưu trú cho du khách. Dưới đây là danh sách 6 nhà nghỉ và khách sạn mà bạn có thể tham khảo:
@@ -605,7 +475,7 @@ responses:
                 Địa chỉ: Số 1, Đường Hòa Bình, gần Bến Ninh Kiều.
                 Mô tả: Khách sạn sang trọng với tầm nhìn ra sông, cung cấp dịch vụ cao cấp và các món ăn đặc sản.
             2.Khách sạn Vinpearl Cần Thơ
-                Giá thuê: khoảng 2.500.000 - 4.000.000 VNĐ/đêm.
+                Giá thuê: khoảng 2.500.000 - 3.000.000 VNĐ/đêm.
                 Địa chỉ: Số 31, Đường Đinh Tiên Hoàng, gần Bến Ninh Kiều.
                 Mô tả: Khách sạn 5 sao đẳng cấp, nhiều tiện nghi hiện đại, thích hợp cho những ai tìm kiếm sự sang trọng.
             3.Khách sạn Mường Thanh Cần Thơ
@@ -707,31 +577,8 @@ responses:
                 Địa chỉ: Số 60, Đường 30/4, gần Chợ Nổi.
                 Mô tả: Khách sạn 5 sao với nhiều tiện nghi hiện đại, mang đến trải nghiệm lưu trú hoàn hảo.
 
-    utter_ask_vehicle_vuoncobanglan:
-        - text: |-
-                Dưới đây là các phương tiện di chuyển thuận tiện khi đến Vườn Cò Bằng Lăng:
-
-                **1. Thuyền**:
-                - Phương tiện di chuyển phổ biến nhất để khám phá Vườn Cò Bằng Lăng. 
-                - Du khách có thể thuê thuyền từ bến Ninh Kiều hoặc các bến gần đó. 
-                - Chuyến đi thuyền giúp thưởng thức cảnh sông nước và ngắm nhìn khung cảnh thiên nhiên hoang dã của khu bảo tồn cò.
-
-                **2. Xe máy hoặc xe đạp**:
-                - Đối với những ai thích tự mình khám phá, xe máy hoặc xe đạp là lựa chọn lý tưởng. 
-                - Du khách có thể thuê xe từ trung tâm Cần Thơ và tự lái đến Vườn Cò Bằng Lăng. 
-                - Đường đi khá thoải mái, qua những cánh đồng lúa và làng quê thanh bình.
-
-                **3. Taxi hoặc ô tô**:
-                - Nếu đi cùng gia đình hoặc nhóm bạn, thuê taxi hoặc ô tô riêng là lựa chọn thuận tiện. 
-                - Nhiều dịch vụ taxi có sẵn để đưa du khách từ trung tâm Cần Thơ đến thẳng Vườn Cò Bằng Lăng.
-
-                **4. Xe buýt**:
-                - Phương tiện tiết kiệm chi phí, dễ dàng tiếp cận.
-                - Du khách có thể đi xe buýt từ trung tâm Cần Thơ đến gần khu vực vườn cò, sau đó di chuyển bằng xe ôm hoặc đi bộ vào khu vực vườn.
-
-                Mỗi phương tiện đều mang đến trải nghiệm riêng biệt, phù hợp với sở thích và nhu cầu của du khách.
     utter_ask_vehicle_thienvientruc:
-        - text: |-
+        - text: |
             Để di chuyển đến Thiền Viện Trúc Lâm Phương Nam, du khách có thể lựa chọn các phương tiện sau:
 
             **1. Xe máy hoặc xe đạp**:
@@ -749,7 +596,7 @@ responses:
 
             Mỗi phương tiện đều phù hợp với nhu cầu và sở thích riêng, mang đến trải nghiệm thoải mái cho chuyến hành trình của bạn.
     utter_ask_vehicle_langmykhanh:
-        - text: |-
+        - text: |
             Để di chuyển đến Làng Du Lịch Mỹ Khánh, du khách có thể lựa chọn các phương tiện sau:
 
             **1. Xe máy hoặc xe đạp**:
@@ -767,7 +614,7 @@ responses:
 
             Dù chọn phương tiện nào, bạn cũng sẽ có cơ hội tận hưởng cảnh đẹp của miền quê sông nước Cần Thơ trong hành trình của mình.
     utter_ask_vehicle_benninhkieu:
-        - text: |-
+        - text: |
             Để di chuyển đến Bến Ninh Kiều, du khách có thể sử dụng các phương tiện sau:
 
             **1. Xe máy hoặc xe đạp**:
@@ -789,7 +636,7 @@ responses:
 
             Tùy theo sở thích và nhu cầu của bạn, mỗi phương tiện sẽ mang lại một trải nghiệm khác nhau khi khám phá Bến Ninh Kiều.
     utter_ask_vehicle_chonoicairang:
-        - text: |-
+        - text: |
             Để di chuyển đến Chợ Nổi Cái Răng, du khách có thể lựa chọn các phương tiện sau:
 
             **1. Thuyền**:
@@ -806,13 +653,166 @@ responses:
 
             Mỗi phương tiện đều mang lại trải nghiệm riêng biệt, giúp bạn dễ dàng khám phá chợ nổi và tận hưởng không khí miền sông nước Cần Thơ.
     utter_default:
-        - text: "Xin lỗi, tôi không hiểu yêu cầu của bạn. Bạn có thể nói rõ hơn không?"
+        - text: "LLM_predict"
+
+    utter_ask_vuonco:
+        - text: |
+            Bạn có thể tham khảo trước các dịch vụ ở Vườn Cò Bằng Lăng tại [đây](https://vinpearl.com/vi/thien-vien-truc-lam-phuong-nam-can-tho-chon-tam-linh-thanh-tinh) còn thắc mắc nào sau khi tham khảo hãy nói với tôi
+    utter_ask_restaurant_vuonco:
+        - text: |
+            Gần Vườn Cò Bằng Lăng, có nhiều quán ăn và nhà hàng phục vụ các món ăn ngon. Dưới đây là danh sách 10 địa điểm mà bạn có thể tham khảo:
+
+            **Nhóm nhà hàng bình dân:**
+
+            1. **Quán Cơm Gà Bằng Lăng**  
+                - **Địa chỉ**: Số 1, Đường Đỗ Hữu Phương, gần Vườn Cò.  
+                - **Mô tả**: Cơm gà tươi ngon, hương vị đậm đà, giá cả phải chăng.
+
+            2. **Quán Bánh Canh Cua**  
+                - **Địa chỉ**: Số 10, Đường Nguyễn Văn Thoại, gần Vườn Cò.  
+                - **Mô tả**: Món bánh canh cua thơm ngon, nước dùng thanh ngọt.
+
+            3. **Quán Cháo Vịt**  
+                - **Địa chỉ**: Số 15, Đường Lê Thánh Tôn, gần Vườn Cò.  
+                - **Mô tả**: Cháo vịt nóng hổi, thích hợp cho bữa sáng hoặc chiều.
+
+            4. **Quán Mì Quảng**  
+                - **Địa chỉ**: Số 8, Đường Phạm Ngọc Thạch, gần Vườn Cò.  
+                - **Mô tả**: Mì Quảng với nhiều loại topping, hương vị thơm ngon.
+
+            5. **Quán Hủ Tiếu**  
+                - **Địa chỉ**: Số 3, Đường Trần Phú, gần Vườn Cò.  
+                - **Mô tả**: Hủ tiếu với nước dùng thơm ngon, phục vụ nhanh chóng.
+
+            **Nhóm nhà hàng cao cấp:**
+
+            6. **Nhà hàng Bằng Lăng**  
+                - **Địa chỉ**: Khu du lịch Vườn Cò Bằng Lăng, gần Vườn Cò.  
+                - **Mô tả**: Nhà hàng sang trọng phục vụ các món ăn đặc sản miền Tây, không gian yên tĩnh và thoáng đãng.
+
+            7. **Nhà hàng Cò Bay**  
+                - **Địa chỉ**: Số 20, Đường Hậu Giang, gần Vườn Cò.  
+                - **Mô tả**: Nhà hàng ven sông với không gian lãng mạn, phục vụ hải sản tươi sống.
+
+            8. **Nhà hàng Sen Vàng**  
+                - **Địa chỉ**: Khu du lịch Sen Vàng, gần Vườn Cò.  
+                - **Mô tả**: Phục vụ đa dạng món ăn từ miền Tây và ẩm thực quốc tế, không gian sang trọng.
+
+            9. **Nhà hàng Ngọc Lan**  
+                - **Địa chỉ**: Số 25, Đường Nguyễn Thị Minh Khai, gần Vườn Cò.  
+                - **Mô tả**: Nhà hàng phục vụ món ăn cao cấp, không gian đẹp mắt và dịch vụ chuyên nghiệp.
+
+            10. **Nhà hàng Hoa Nhài**  
+                - **Địa chỉ**: Khu vực gần Vườn Cò, Cần Thơ.  
+                - **Mô tả**: Nhà hàng với các món ăn đặc sản miền Tây, phong cách phục vụ lịch sự và sang trọng.
+
+            Bạn có thể thưởng thức những món ăn ngon và thư giãn tại những địa điểm này khi ghé thăm Vườn Cò Bằng Lăng.
+    utter_ask_hotel_vuonco:
+        - text: |
+            Gần Vườn Cò Bằng Lăng, có nhiều nhà nghỉ và khách sạn phục vụ nhu cầu lưu trú của du khách. Dưới đây là danh sách 6 địa điểm mà bạn có thể tham khảo:
+            **Nhóm nhà nghỉ, khách sạn bình dân:
+            1.Nhà nghỉ Cò Bằng Lăng
+                Giá thuê: khoảng 300.000 - 500.000 VNĐ/đêm.
+                Địa chỉ: Số 10, Đường Bằng Lăng, gần Vườn Cò.
+                Mô tả: Nhà nghỉ thoải mái, giá cả hợp lý, gần gũi với thiên nhiên.
+            2.Khách sạn Hương Sen
+                Giá thuê: khoảng 400.000 - 600.000 VNĐ/đêm.
+                Địa chỉ: Số 25, Đường Quốc Lộ 1A, gần Vườn Cò.
+                Mô tả: Khách sạn nhỏ, phục vụ các dịch vụ cơ bản, thân thiện và dễ chịu.
+            3.Nhà nghỉ Bằng Lăng
+                Giá thuê: khoảng 350.000 - 550.000 VNĐ/đêm.
+                Địa chỉ: Số 15, Đường Nông Thôn, gần Vườn Cò.
+                Mô tả: Nơi nghỉ chân dễ chịu với không gian xanh mát, thích hợp cho các gia đình.
+
+            **Nhóm khách sạn cao cấp:
+            4.Khách sạn Bằng Lăng Riverside
+                Giá thuê: khoảng 1.200.000 - 2.000.000 VNĐ/đêm.
+                Địa chỉ: Số 1, Đường Bến Cò, gần Vườn Cò.
+                Mô tả: Khách sạn sang trọng ven sông, phục vụ nhiều món ăn đặc sản và có không gian thư giãn thoải mái.
+            5.Khách sạn Vườn Cò
+                Giá thuê: khoảng 1.500.000 - 2.500.000 VNĐ/đêm.
+                Địa chỉ: Số 3, Đường Vườn Cò, gần Vườn Cò.
+                Mô tả: Khách sạn cao cấp với thiết kế hiện đại, nhiều tiện nghi và dịch vụ chất lượng.
+            6.Khách sạn Ánh Dương
+                Giá thuê: khoảng 1.000.000 - 1.800.000 VNĐ/đêm.
+                Địa chỉ: Số 8, Đường Nguyễn Trãi, gần Vườn Cò.
+                Mô tả: Khách sạn đẳng cấp với dịch vụ hoàn hảo và nhiều tiện ích cho du khách.
+
+            Bạn có thể lựa chọn các nhà nghỉ và khách sạn phù hợp với nhu cầu và ngân sách của mình khi đến thăm Vườn Cò Bằng Lăng.   
+    utter_vuonco_hotel_duoi_1trieu:
+        - text : |
+            Dưới đây là 1 vài gợi ý dành cho bạn :
+            1.Nhà nghỉ Cò Bằng Lăng
+                Giá thuê: khoảng 300.000 - 500.000 VNĐ/đêm.
+                Địa chỉ: Số 10, Đường Bằng Lăng, gần Vườn Cò.
+                Mô tả: Nhà nghỉ thoải mái, giá cả hợp lý, gần gũi với thiên nhiên.
+            2.Khách sạn Hương Sen
+                Giá thuê: khoảng 400.000 - 600.000 VNĐ/đêm.
+                Địa chỉ: Số 25, Đường Quốc Lộ 1A, gần Vườn Cò.
+                Mô tả: Khách sạn nhỏ, phục vụ các dịch vụ cơ bản, thân thiện và dễ chịu.
+            3.Nhà nghỉ Bằng Lăng
+                Giá thuê: khoảng 350.000 - 550.000 VNĐ/đêm.
+                Địa chỉ: Số 15, Đường Nông Thôn, gần Vườn Cò.
+                Mô tả: Nơi nghỉ chân dễ chịu với không gian xanh mát, thích hợp cho các gia đình.
+    utter_vuonco_hotel_duoi_3trieu:
+        - text: |
+            Dưới đây là 1 vài gợi ý dành cho bạn :
+            1.Khách sạn Bằng Lăng Riverside
+                .Giá thuê: khoảng 1.200.000 - 2.000.000 VNĐ/đêm.
+                .Địa chỉ: Số 1, Đường Bến Cò, gần Vườn Cò.
+                .Mô tả: Khách sạn sang trọng ven sông, phục vụ nhiều món ăn đặc sản và có không gian thư giãn thoải mái.
+            2.Khách sạn Vườn Cò
+                .Giá thuê: khoảng 1.500.000 - 2.500.000 VNĐ/đêm.
+                .Địa chỉ: Số 3, Đường Vườn Cò, gần Vườn Cò.
+                .Mô tả: Khách sạn cao cấp với thiết kế hiện đại, nhiều tiện nghi và dịch vụ chất lượng.
+            3.Khách sạn Ánh Dương
+                .Giá thuê: khoảng 1.000.000 - 1.800.000 VNĐ/đêm.
+                .Địa chỉ: Số 8, Đường Nguyễn Trãi, gần Vườn Cò.
+                .Mô tả: Khách sạn đẳng cấp với dịch vụ hoàn hảo và nhiều tiện ích cho du khách.
+    utter_vuonco_hotel_tren_3trieu:
+        - text: |
+            Dưới đây là 1 vài gợi ý dành cho bạn :
+            1.Khách sạn Vinpearl Cần Thơ
+                .Giá thuê: khoảng 3.500.000 - 4.500.000 VNĐ/đêm.
+                .Địa chỉ: Số 31, Đường Đinh Tiên Hoàng, gần Vườn Cò.
+                .Mô tả: Khách sạn 5 sao đẳng cấp, với nhiều tiện nghi hiện đại và dịch vụ chất lượng, thích hợp cho du khách muốn trải nghiệm sự sang trọng.
+            2.Khách sạn Victoria Can Tho
+                .Giá thuê: khoảng 3.000.000 - 4.000.000 VNĐ/đêm.
+                .Địa chỉ: Số 1, Đường Hòa Bình, gần Vườn Cò.
+                .Mô tả: Khách sạn sang trọng với dịch vụ cao cấp, thiết kế tinh tế và không gian thư giãn lý tưởng.
+            3.Khách sạn Mường Thanh Luxury Cần Thơ
+                .Giá thuê: khoảng 3.000.000 - 4.000.000 VNĐ/đêm.
+                .Địa chỉ: Số 60, Đường 30/4, gần Vườn Cò.
+                .Mô tả: Khách sạn cao cấp với nhiều tiện ích hiện đại và dịch vụ chuyên nghiệp, mang đến trải nghiệm lưu trú tuyệt vời.
+    utter_ask_vehicle_vuonco:
+        - text: |
+                Dưới đây là các phương tiện di chuyển thuận tiện khi đến Vườn Cò Bằng Lăng:
+
+                **1. Thuyền**:
+                - Phương tiện di chuyển phổ biến nhất để khám phá Vườn Cò Bằng Lăng. 
+                - Du khách có thể thuê thuyền từ bến Ninh Kiều hoặc các bến gần đó. 
+                - Chuyến đi thuyền giúp thưởng thức cảnh sông nước và ngắm nhìn khung cảnh thiên nhiên hoang dã của khu bảo tồn cò.
+
+                **2. Xe máy hoặc xe đạp**:
+                - Đối với những ai thích tự mình khám phá, xe máy hoặc xe đạp là lựa chọn lý tưởng. 
+                - Du khách có thể thuê xe từ trung tâm Cần Thơ và tự lái đến Vườn Cò Bằng Lăng. 
+                - Đường đi khá thoải mái, qua những cánh đồng lúa và làng quê thanh bình.
+
+                **3. Taxi hoặc ô tô**:
+                - Nếu đi cùng gia đình hoặc nhóm bạn, thuê taxi hoặc ô tô riêng là lựa chọn thuận tiện. 
+                - Nhiều dịch vụ taxi có sẵn để đưa du khách từ trung tâm Cần Thơ đến thẳng Vườn Cò Bằng Lăng.
+
+                **4. Xe buýt**:
+                - Phương tiện tiết kiệm chi phí, dễ dàng tiếp cận.
+                - Du khách có thể đi xe buýt từ trung tâm Cần Thơ đến gần khu vực vườn cò, sau đó di chuyển bằng xe ôm hoặc đi bộ vào khu vực vườn.
+
+                Mỗi phương tiện đều mang đến trải nghiệm riêng biệt, phù hợp với sở thích và nhu cầu của du khách.
 
 actions:
-  - action_default_fallback
-  - action_extract_location
+- action_fallback
+- action_extract_location
 
 
 session_config:
-  session_expiration_time: 60  # Thời gian hết hạn phiên (phút)
-  carry_over_slots_to_new_session: true  # Mang theo các slot vào phiên mới
+    session_expiration_time: 60  # Thời gian hết hạn phiên (phút)
+    carry_over_slots_to_new_session: true  # Mang theo các slot vào phiên mới

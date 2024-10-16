@@ -35,7 +35,7 @@ policies:
   epochs: 100
 - name: RulePolicy
   core_fallback_threshold: 0.2
-  fallback_action_name: 'utter_default'
+  fallback_action_name: action_fallback
   enable_fallback_prediction: true
 # assistant_id: 20240711-082844-stable-cadence
 assistant_id: 20240711-142416-fundamental-circuit
